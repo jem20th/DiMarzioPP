@@ -1,6 +1,6 @@
 //
-//  dimarziopp1UITests.m
-//  dimarziopp1UITests
+//  dimarzioppUITests.m
+//  dimarzioppUITests
 //
 //  Created by Harrison Ching on 6/15/16.
 //  Copyright © 2016 Harrison Ching. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface dimarziopp1UITests : XCTestCase
+@interface dimarzioppUITests : XCTestCase
 
 @end
 
-@implementation dimarziopp1UITests
+@implementation dimarzioppUITests
 
 - (void)setUp {
     [super setUp];

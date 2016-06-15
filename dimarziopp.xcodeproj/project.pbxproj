@@ -14,8 +14,8 @@
 		83CF062C1D12127000200000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CF062A1D12127000200000 /* Main.storyboard */; };
 		83CF062E1D12127000200000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83CF062D1D12127000200000 /* Assets.xcassets */; };
 		83CF06311D12127000200000 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CF062F1D12127000200000 /* LaunchScreen.storyboard */; };
-		83CF063C1D12127000200000 /* dimarziopp1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CF063B1D12127000200000 /* dimarziopp1Tests.m */; };
-		83CF06471D12127000200000 /* dimarziopp1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CF06461D12127000200000 /* dimarziopp1UITests.m */; };
+		83CF063C1D12127000200000 /* dimarzioppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CF063B1D12127000200000 /* dimarzioppTests.m */; };
+		83CF06471D12127000200000 /* dimarzioppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83CF06461D12127000200000 /* dimarzioppUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		83CF061B1D12127000200000 /* dimarziopp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dimarziopp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CF061B1D12127000200000 /* dimarziopp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dimarziopp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83CF061F1D12127000200000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83CF06211D12127000200000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83CF06221D12127000200000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,11 +48,11 @@
 		83CF062D1D12127000200000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83CF06301D12127000200000 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83CF06321D12127000200000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83CF06371D12127000200000 /* dimarziopp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dimarziopp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83CF063B1D12127000200000 /* dimarziopp1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dimarziopp1Tests.m; sourceTree = "<group>"; };
+		83CF06371D12127000200000 /* dimarziopp.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dimarziopp.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CF063B1D12127000200000 /* dimarzioppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dimarzioppTests.m; sourceTree = "<group>"; };
 		83CF063D1D12127000200000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83CF06421D12127000200000 /* dimarziopp1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dimarziopp1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83CF06461D12127000200000 /* dimarziopp1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dimarziopp1UITests.m; sourceTree = "<group>"; };
+		83CF06421D12127000200000 /* dimarziopp.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dimarziopp.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CF06461D12127000200000 /* dimarzioppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dimarzioppUITests.m; sourceTree = "<group>"; };
 		83CF06481D12127000200000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,9 +84,9 @@
 		83CF06121D12127000200000 = {
 			isa = PBXGroup;
 			children = (
-				83CF061D1D12127000200000 /* dimarziopp1 */,
-				83CF063A1D12127000200000 /* dimarziopp1Tests */,
-				83CF06451D12127000200000 /* dimarziopp1UITests */,
+				83CF061D1D12127000200000 /* dimarziopp */,
+				83CF063A1D12127000200000 /* dimarzioppTests */,
+				83CF06451D12127000200000 /* dimarzioppUITests */,
 				83CF061C1D12127000200000 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,14 +94,14 @@
 		83CF061C1D12127000200000 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83CF061B1D12127000200000 /* dimarziopp1.app */,
-				83CF06371D12127000200000 /* dimarziopp1Tests.xctest */,
-				83CF06421D12127000200000 /* dimarziopp1UITests.xctest */,
+				83CF061B1D12127000200000 /* dimarziopp.app */,
+				83CF06371D12127000200000 /* dimarziopp.xctest */,
+				83CF06421D12127000200000 /* dimarziopp.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83CF061D1D12127000200000 /* dimarziopp1 */ = {
+		83CF061D1D12127000200000 /* dimarziopp */ = {
 			isa = PBXGroup;
 			children = (
 				83CF06211D12127000200000 /* AppDelegate.h */,
@@ -116,6 +116,7 @@
 				83CF06321D12127000200000 /* Info.plist */,
 				83CF061E1D12127000200000 /* Supporting Files */,
 			);
+			name = dimarziopp;
 			path = dimarziopp1;
 			sourceTree = "<group>";
 		};
@@ -127,30 +128,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		83CF063A1D12127000200000 /* dimarziopp1Tests */ = {
+		83CF063A1D12127000200000 /* dimarzioppTests */ = {
 			isa = PBXGroup;
 			children = (
-				83CF063B1D12127000200000 /* dimarziopp1Tests.m */,
+				83CF063B1D12127000200000 /* dimarzioppTests.m */,
 				83CF063D1D12127000200000 /* Info.plist */,
 			);
+			name = dimarzioppTests;
 			path = dimarziopp1Tests;
 			sourceTree = "<group>";
 		};
-		83CF06451D12127000200000 /* dimarziopp1UITests */ = {
+		83CF06451D12127000200000 /* dimarzioppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				83CF06461D12127000200000 /* dimarziopp1UITests.m */,
+				83CF06461D12127000200000 /* dimarzioppUITests.m */,
 				83CF06481D12127000200000 /* Info.plist */,
 			);
+			name = dimarzioppUITests;
 			path = dimarziopp1UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83CF061A1D12127000200000 /* dimarziopp1 */ = {
+		83CF061A1D12127000200000 /* dimarziopp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83CF064B1D12127000200000 /* Build configuration list for PBXNativeTarget "dimarziopp1" */;
+			buildConfigurationList = 83CF064B1D12127000200000 /* Build configuration list for PBXNativeTarget "dimarziopp" */;
 			buildPhases = (
 				83CF06171D12127000200000 /* Sources */,
 				83CF06181D12127000200000 /* Frameworks */,
@@ -160,14 +163,14 @@
 			);
 			dependencies = (
 			);
-			name = dimarziopp1;
+			name = dimarziopp;
 			productName = dimarziopp1;
-			productReference = 83CF061B1D12127000200000 /* dimarziopp1.app */;
+			productReference = 83CF061B1D12127000200000 /* dimarziopp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		83CF06361D12127000200000 /* dimarziopp1Tests */ = {
+		83CF06361D12127000200000 /* dimarzioppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83CF064E1D12127000200000 /* Build configuration list for PBXNativeTarget "dimarziopp1Tests" */;
+			buildConfigurationList = 83CF064E1D12127000200000 /* Build configuration list for PBXNativeTarget "dimarzioppTests" */;
 			buildPhases = (
 				83CF06331D12127000200000 /* Sources */,
 				83CF06341D12127000200000 /* Frameworks */,
@@ -178,14 +181,14 @@
 			dependencies = (
 				83CF06391D12127000200000 /* PBXTargetDependency */,
 			);
-			name = dimarziopp1Tests;
+			name = dimarzioppTests;
 			productName = dimarziopp1Tests;
-			productReference = 83CF06371D12127000200000 /* dimarziopp1Tests.xctest */;
+			productReference = 83CF06371D12127000200000 /* dimarziopp.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		83CF06411D12127000200000 /* dimarziopp1UITests */ = {
+		83CF06411D12127000200000 /* dimarzioppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83CF06511D12127000200000 /* Build configuration list for PBXNativeTarget "dimarziopp1UITests" */;
+			buildConfigurationList = 83CF06511D12127000200000 /* Build configuration list for PBXNativeTarget "dimarzioppUITests" */;
 			buildPhases = (
 				83CF063E1D12127000200000 /* Sources */,
 				83CF063F1D12127000200000 /* Frameworks */,
@@ -196,9 +199,9 @@
 			dependencies = (
 				83CF06441D12127000200000 /* PBXTargetDependency */,
 			);
-			name = dimarziopp1UITests;
+			name = dimarzioppUITests;
 			productName = dimarziopp1UITests;
-			productReference = 83CF06421D12127000200000 /* dimarziopp1UITests.xctest */;
+			productReference = 83CF06421D12127000200000 /* dimarziopp.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -224,7 +227,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CF06161D12127000200000 /* Build configuration list for PBXProject "dimarziopp1" */;
+			buildConfigurationList = 83CF06161D12127000200000 /* Build configuration list for PBXProject "dimarziopp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -237,9 +240,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83CF061A1D12127000200000 /* dimarziopp1 */,
-				83CF06361D12127000200000 /* dimarziopp1Tests */,
-				83CF06411D12127000200000 /* dimarziopp1UITests */,
+				83CF061A1D12127000200000 /* dimarziopp */,
+				83CF06361D12127000200000 /* dimarzioppTests */,
+				83CF06411D12127000200000 /* dimarzioppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -287,7 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83CF063C1D12127000200000 /* dimarziopp1Tests.m in Sources */,
+				83CF063C1D12127000200000 /* dimarzioppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83CF06471D12127000200000 /* dimarziopp1UITests.m in Sources */,
+				83CF06471D12127000200000 /* dimarzioppUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,12 +307,12 @@
 /* Begin PBXTargetDependency section */
 		83CF06391D12127000200000 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83CF061A1D12127000200000 /* dimarziopp1 */;
+			target = 83CF061A1D12127000200000 /* dimarziopp */;
 			targetProxy = 83CF06381D12127000200000 /* PBXContainerItemProxy */;
 		};
 		83CF06441D12127000200000 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83CF061A1D12127000200000 /* dimarziopp1 */;
+			target = 83CF061A1D12127000200000 /* dimarziopp */;
 			targetProxy = 83CF06431D12127000200000 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -426,8 +429,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = dimarziopp1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hc.dimarziopp1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hc.dimarziopp;
+				PRODUCT_NAME = dimarziopp;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -440,8 +443,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = dimarziopp1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hc.dimarziopp1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hc.dimarziopp;
+				PRODUCT_NAME = dimarziopp;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -453,8 +456,8 @@
 				INFOPLIST_FILE = dimarziopp1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hc.dimarziopp1Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dimarziopp1.app/dimarziopp1";
+				PRODUCT_NAME = dimarziopp;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dimarziopp.app/dimarziopp";
 			};
 			name = Debug;
 		};
@@ -465,8 +468,8 @@
 				INFOPLIST_FILE = dimarziopp1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hc.dimarziopp1Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dimarziopp1.app/dimarziopp1";
+				PRODUCT_NAME = dimarziopp;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dimarziopp.app/dimarziopp";
 			};
 			name = Release;
 		};
@@ -476,7 +479,7 @@
 				INFOPLIST_FILE = dimarziopp1UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hc.dimarziopp1UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = dimarziopp;
 				TEST_TARGET_NAME = dimarziopp1;
 			};
 			name = Debug;
@@ -487,7 +490,7 @@
 				INFOPLIST_FILE = dimarziopp1UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hc.dimarziopp1UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = dimarziopp;
 				TEST_TARGET_NAME = dimarziopp1;
 			};
 			name = Release;
@@ -495,7 +498,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83CF06161D12127000200000 /* Build configuration list for PBXProject "dimarziopp1" */ = {
+		83CF06161D12127000200000 /* Build configuration list for PBXProject "dimarziopp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CF06491D12127000200000 /* Debug */,
@@ -504,7 +507,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CF064B1D12127000200000 /* Build configuration list for PBXNativeTarget "dimarziopp1" */ = {
+		83CF064B1D12127000200000 /* Build configuration list for PBXNativeTarget "dimarziopp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CF064C1D12127000200000 /* Debug */,
@@ -513,7 +516,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CF064E1D12127000200000 /* Build configuration list for PBXNativeTarget "dimarziopp1Tests" */ = {
+		83CF064E1D12127000200000 /* Build configuration list for PBXNativeTarget "dimarzioppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CF064F1D12127000200000 /* Debug */,
@@ -522,7 +525,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CF06511D12127000200000 /* Build configuration list for PBXNativeTarget "dimarziopp1UITests" */ = {
+		83CF06511D12127000200000 /* Build configuration list for PBXNativeTarget "dimarzioppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CF06521D12127000200000 /* Debug */,

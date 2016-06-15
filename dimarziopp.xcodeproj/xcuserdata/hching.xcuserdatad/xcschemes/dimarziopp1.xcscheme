@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "83CF061A1D12127000200000"
-               BuildableName = "dimarziopp1.app"
-               BlueprintName = "dimarziopp1"
-               ReferencedContainer = "container:dimarziopp1.xcodeproj">
+               BuildableName = "dimarziopp.app"
+               BlueprintName = "dimarziopp"
+               ReferencedContainer = "container:dimarziopp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "83CF06361D12127000200000"
-               BuildableName = "dimarziopp1Tests.xctest"
-               BlueprintName = "dimarziopp1Tests"
-               ReferencedContainer = "container:dimarziopp1.xcodeproj">
+               BuildableName = "dimarziopp.xctest"
+               BlueprintName = "dimarzioppTests"
+               ReferencedContainer = "container:dimarziopp.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "83CF06411D12127000200000"
-               BuildableName = "dimarziopp1UITests.xctest"
-               BlueprintName = "dimarziopp1UITests"
-               ReferencedContainer = "container:dimarziopp1.xcodeproj">
+               BuildableName = "dimarziopp.xctest"
+               BlueprintName = "dimarzioppUITests"
+               ReferencedContainer = "container:dimarziopp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83CF061A1D12127000200000"
-            BuildableName = "dimarziopp1.app"
-            BlueprintName = "dimarziopp1"
-            ReferencedContainer = "container:dimarziopp1.xcodeproj">
+            BuildableName = "dimarziopp.app"
+            BlueprintName = "dimarziopp"
+            ReferencedContainer = "container:dimarziopp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83CF061A1D12127000200000"
-            BuildableName = "dimarziopp1.app"
-            BlueprintName = "dimarziopp1"
-            ReferencedContainer = "container:dimarziopp1.xcodeproj">
+            BuildableName = "dimarziopp.app"
+            BlueprintName = "dimarziopp"
+            ReferencedContainer = "container:dimarziopp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "83CF061A1D12127000200000"
-            BuildableName = "dimarziopp1.app"
-            BlueprintName = "dimarziopp1"
-            ReferencedContainer = "container:dimarziopp1.xcodeproj">
+            BuildableName = "dimarziopp.app"
+            BlueprintName = "dimarziopp"
+            ReferencedContainer = "container:dimarziopp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

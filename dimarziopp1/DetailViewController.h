@@ -1,6 +1,6 @@
 //
 //  DetailViewController.h
-//  dimarziopp1
+//  dimarziopp
 //
 //  Created by Harrison Ching on 6/15/16.
 //  Copyright © 2016 Harrison Ching. All rights reserved.

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:dimarziopp1.xcodeproj">
+      location = "self:/Users/hching/scripts/DiMarzioPP/dimarziopp/dimarziopp.xcodeproj">
    </FileRef>
 </Workspace>
